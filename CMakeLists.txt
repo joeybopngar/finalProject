@@ -3,4 +3,4 @@ project(finalProject)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(finalProject main.cpp)
+add_executable(finalProject main.cpp trigram.h trigram.cpp trivial.h trivial.cpp word.h word.cpp)

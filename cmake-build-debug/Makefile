@@ -150,6 +150,87 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/finalProject.dir/build.make CMakeFiles/finalProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+trigram.o: trigram.cpp.o
+
+.PHONY : trigram.o
+
+# target to build an object file
+trigram.cpp.o:
+	$(MAKE) -f CMakeFiles/finalProject.dir/build.make CMakeFiles/finalProject.dir/trigram.cpp.o
+.PHONY : trigram.cpp.o
+
+trigram.i: trigram.cpp.i
+
+.PHONY : trigram.i
+
+# target to preprocess a source file
+trigram.cpp.i:
+	$(MAKE) -f CMakeFiles/finalProject.dir/build.make CMakeFiles/finalProject.dir/trigram.cpp.i
+.PHONY : trigram.cpp.i
+
+trigram.s: trigram.cpp.s
+
+.PHONY : trigram.s
+
+# target to generate assembly for a file
+trigram.cpp.s:
+	$(MAKE) -f CMakeFiles/finalProject.dir/build.make CMakeFiles/finalProject.dir/trigram.cpp.s
+.PHONY : trigram.cpp.s
+
+trivial.o: trivial.cpp.o
+
+.PHONY : trivial.o
+
+# target to build an object file
+trivial.cpp.o:
+	$(MAKE) -f CMakeFiles/finalProject.dir/build.make CMakeFiles/finalProject.dir/trivial.cpp.o
+.PHONY : trivial.cpp.o
+
+trivial.i: trivial.cpp.i
+
+.PHONY : trivial.i
+
+# target to preprocess a source file
+trivial.cpp.i:
+	$(MAKE) -f CMakeFiles/finalProject.dir/build.make CMakeFiles/finalProject.dir/trivial.cpp.i
+.PHONY : trivial.cpp.i
+
+trivial.s: trivial.cpp.s
+
+.PHONY : trivial.s
+
+# target to generate assembly for a file
+trivial.cpp.s:
+	$(MAKE) -f CMakeFiles/finalProject.dir/build.make CMakeFiles/finalProject.dir/trivial.cpp.s
+.PHONY : trivial.cpp.s
+
+word.o: word.cpp.o
+
+.PHONY : word.o
+
+# target to build an object file
+word.cpp.o:
+	$(MAKE) -f CMakeFiles/finalProject.dir/build.make CMakeFiles/finalProject.dir/word.cpp.o
+.PHONY : word.cpp.o
+
+word.i: word.cpp.i
+
+.PHONY : word.i
+
+# target to preprocess a source file
+word.cpp.i:
+	$(MAKE) -f CMakeFiles/finalProject.dir/build.make CMakeFiles/finalProject.dir/word.cpp.i
+.PHONY : word.cpp.i
+
+word.s: word.cpp.s
+
+.PHONY : word.s
+
+# target to generate assembly for a file
+word.cpp.s:
+	$(MAKE) -f CMakeFiles/finalProject.dir/build.make CMakeFiles/finalProject.dir/word.cpp.s
+.PHONY : word.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +243,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... trigram.o"
+	@echo "... trigram.i"
+	@echo "... trigram.s"
+	@echo "... trivial.o"
+	@echo "... trivial.i"
+	@echo "... trivial.s"
+	@echo "... word.o"
+	@echo "... word.i"
+	@echo "... word.s"
 .PHONY : help
 
 

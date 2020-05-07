@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/finalProject.dir/build.make CMakeFiles/finalProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+trigram.o: trigram.cpp.o
+
+.PHONY : trigram.o
+
+# target to build an object file
+trigram.cpp.o:
+	$(MAKE) -f CMakeFiles/finalProject.dir/build.make CMakeFiles/finalProject.dir/trigram.cpp.o
+.PHONY : trigram.cpp.o
+
+trigram.i: trigram.cpp.i
+
+.PHONY : trigram.i
+
+# target to preprocess a source file
+trigram.cpp.i:
+	$(MAKE) -f CMakeFiles/finalProject.dir/build.make CMakeFiles/finalProject.dir/trigram.cpp.i
+.PHONY : trigram.cpp.i
+
+trigram.s: trigram.cpp.s
+
+.PHONY : trigram.s
+
+# target to generate assembly for a file
+trigram.cpp.s:
+	$(MAKE) -f CMakeFiles/finalProject.dir/build.make CMakeFiles/finalProject.dir/trigram.cpp.s
+.PHONY : trigram.cpp.s
+
 trivial.o: trivial.cpp.o
 
 .PHONY : trivial.o
@@ -216,6 +243,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... trigram.o"
+	@echo "... trigram.i"
+	@echo "... trigram.s"
 	@echo "... trivial.o"
 	@echo "... trivial.i"
 	@echo "... trivial.s"

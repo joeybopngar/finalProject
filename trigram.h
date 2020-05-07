@@ -19,7 +19,7 @@ class trigram {
 private:
     vector<word>index; //vector of word objs
 public:
-    void CreateIndex(string); //creates an index of trigrams for every word read in
+    void CreateIndex(char*); //creates an index of trigrams for every word read in
     void FindSimilar(string); //breaks down user input into a trigram and finds matches. if words match at 40% or higher it will display them
 };
 

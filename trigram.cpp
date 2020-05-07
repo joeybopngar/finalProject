@@ -4,7 +4,7 @@
 
 #include "trigram.h"
 
-void trigram::CreateIndex(string file) {
+void trigram::CreateIndex(char* file) {
 
     string temp; //temp string to store trigrams
     char buffer[50];

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/finalProject.dir/main.cpp.o"
+  "CMakeFiles/finalProject.dir/trigram.cpp.o"
   "CMakeFiles/finalProject.dir/trivial.cpp.o"
   "CMakeFiles/finalProject.dir/word.cpp.o"
   "finalProject"

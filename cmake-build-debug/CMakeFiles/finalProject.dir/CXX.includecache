@@ -16,6 +16,10 @@ trigram.h
 chrono
 -
 
+/Users/joeyb/Desktop/finalProject/finalProject/trigram.cpp
+trigram.h
+/Users/joeyb/Desktop/finalProject/finalProject/trigram.h
+
 /Users/joeyb/Desktop/finalProject/finalProject/trigram.h
 iostream
 -
@@ -25,10 +29,6 @@ fstream
 -
 word.h
 /Users/joeyb/Desktop/finalProject/finalProject/word.h
-
-/Users/joeyb/Desktop/finalProject/finalProject/trivial.cpp
-trivial.h
-/Users/joeyb/Desktop/finalProject/finalProject/trivial.h
 
 /Users/joeyb/Desktop/finalProject/finalProject/trivial.h
 iostream

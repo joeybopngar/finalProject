@@ -27,4 +27,4 @@ foreach(file IN LISTS input01 input02 input03)
 endforeach()
 
 set(CMAKE_CXX_STANDARD 17)
-add_executable(${EXE_NAME} main.cpp data.txt trivial.cpp trigram.h trivial.cpp trivial.h word.cpp word.h)
+add_executable(${EXE_NAME} main.cpp trigram.cpp trigram.h trivial.cpp trivial.h word.cpp word.h data.txt)

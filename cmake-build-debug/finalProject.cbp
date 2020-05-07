@@ -86,6 +86,9 @@
 		<Unit filename="/Users/joeyb/Desktop/finalProject/finalProject/main.cpp">
 			<Option target="finalProject"/>
 		</Unit>
+		<Unit filename="/Users/joeyb/Desktop/finalProject/finalProject/trigram.cpp">
+			<Option target="finalProject"/>
+		</Unit>
 		<Unit filename="/Users/joeyb/Desktop/finalProject/finalProject/trigram.h">
 			<Option target="finalProject"/>
 		</Unit>

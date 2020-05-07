@@ -6,10 +6,6 @@ CMakeFiles/finalProject.dir/main.cpp.o: ../trigram.h
 CMakeFiles/finalProject.dir/main.cpp.o: ../trivial.h
 CMakeFiles/finalProject.dir/main.cpp.o: ../word.h
 
-CMakeFiles/finalProject.dir/trigram.cpp.o: ../trigram.cpp
-CMakeFiles/finalProject.dir/trigram.cpp.o: ../trigram.h
-CMakeFiles/finalProject.dir/trigram.cpp.o: ../word.h
-
 CMakeFiles/finalProject.dir/trivial.cpp.o: ../trivial.cpp
 CMakeFiles/finalProject.dir/trivial.cpp.o: ../trivial.h
 

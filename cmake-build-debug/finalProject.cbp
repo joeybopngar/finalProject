@@ -80,10 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/joeyb/Desktop/finalProject/finalProject/main.cpp">
+		<Unit filename="/Users/joeyb/Desktop/finalProject/finalProject/data.txt">
 			<Option target="finalProject"/>
 		</Unit>
-		<Unit filename="/Users/joeyb/Desktop/finalProject/finalProject/trigram.cpp">
+		<Unit filename="/Users/joeyb/Desktop/finalProject/finalProject/main.cpp">
 			<Option target="finalProject"/>
 		</Unit>
 		<Unit filename="/Users/joeyb/Desktop/finalProject/finalProject/trigram.h">
@@ -102,6 +102,9 @@
 			<Option target="finalProject"/>
 		</Unit>
 		<Unit filename="/Users/joeyb/Desktop/finalProject/finalProject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/joeyb/Desktop/finalProject/finalProject/data.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

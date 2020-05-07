@@ -3,7 +3,7 @@
 //
 
 #include "trivial.h"
-void trivial::ReadIn(char* file) {
+void trivial::ReadIn(string file) {
     char buffer[50];
     string compare; //temp string for read in words
     ifstream ifile;

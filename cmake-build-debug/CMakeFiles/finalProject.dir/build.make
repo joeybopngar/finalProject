@@ -70,22 +70,9 @@ CMakeFiles/finalProject.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/finalProject.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/joeyb/Desktop/finalProject/finalProject/main.cpp -o CMakeFiles/finalProject.dir/main.cpp.s
 
-CMakeFiles/finalProject.dir/trigram.cpp.o: CMakeFiles/finalProject.dir/flags.make
-CMakeFiles/finalProject.dir/trigram.cpp.o: ../trigram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/joeyb/Desktop/finalProject/finalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/finalProject.dir/trigram.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/finalProject.dir/trigram.cpp.o -c /Users/joeyb/Desktop/finalProject/finalProject/trigram.cpp
-
-CMakeFiles/finalProject.dir/trigram.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/finalProject.dir/trigram.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/joeyb/Desktop/finalProject/finalProject/trigram.cpp > CMakeFiles/finalProject.dir/trigram.cpp.i
-
-CMakeFiles/finalProject.dir/trigram.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/finalProject.dir/trigram.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/joeyb/Desktop/finalProject/finalProject/trigram.cpp -o CMakeFiles/finalProject.dir/trigram.cpp.s
-
 CMakeFiles/finalProject.dir/trivial.cpp.o: CMakeFiles/finalProject.dir/flags.make
 CMakeFiles/finalProject.dir/trivial.cpp.o: ../trivial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/joeyb/Desktop/finalProject/finalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/finalProject.dir/trivial.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/joeyb/Desktop/finalProject/finalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/finalProject.dir/trivial.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/finalProject.dir/trivial.cpp.o -c /Users/joeyb/Desktop/finalProject/finalProject/trivial.cpp
 
 CMakeFiles/finalProject.dir/trivial.cpp.i: cmake_force
@@ -98,7 +85,7 @@ CMakeFiles/finalProject.dir/trivial.cpp.s: cmake_force
 
 CMakeFiles/finalProject.dir/word.cpp.o: CMakeFiles/finalProject.dir/flags.make
 CMakeFiles/finalProject.dir/word.cpp.o: ../word.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/joeyb/Desktop/finalProject/finalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/finalProject.dir/word.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/joeyb/Desktop/finalProject/finalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/finalProject.dir/word.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/finalProject.dir/word.cpp.o -c /Users/joeyb/Desktop/finalProject/finalProject/word.cpp
 
 CMakeFiles/finalProject.dir/word.cpp.i: cmake_force
@@ -112,7 +99,6 @@ CMakeFiles/finalProject.dir/word.cpp.s: cmake_force
 # Object files for target finalProject
 finalProject_OBJECTS = \
 "CMakeFiles/finalProject.dir/main.cpp.o" \
-"CMakeFiles/finalProject.dir/trigram.cpp.o" \
 "CMakeFiles/finalProject.dir/trivial.cpp.o" \
 "CMakeFiles/finalProject.dir/word.cpp.o"
 
@@ -120,12 +106,11 @@ finalProject_OBJECTS = \
 finalProject_EXTERNAL_OBJECTS =
 
 finalProject: CMakeFiles/finalProject.dir/main.cpp.o
-finalProject: CMakeFiles/finalProject.dir/trigram.cpp.o
 finalProject: CMakeFiles/finalProject.dir/trivial.cpp.o
 finalProject: CMakeFiles/finalProject.dir/word.cpp.o
 finalProject: CMakeFiles/finalProject.dir/build.make
 finalProject: CMakeFiles/finalProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/joeyb/Desktop/finalProject/finalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable finalProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/joeyb/Desktop/finalProject/finalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable finalProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/finalProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
